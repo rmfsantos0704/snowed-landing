@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const ICON_IMAGE_PATH = "/icon.png";
-const APK_LINK = "#download";
+const APK_LINK = "https://expo.dev/accounts/russelsantos/projects/snowed-app/builds/54cb9de3-5120-4028-be2b-6076abecd9ab";
 
 type IconName = "home" | "calendar" | "book" | "bell" | "note" | "search" | "arrow" | "download" | "lock" | "offline" | "bolt";
 
