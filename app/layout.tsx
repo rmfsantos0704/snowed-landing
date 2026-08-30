@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     description: "Free offline student scheduler with notes, Wikipedia research, and more.",
     type: "website",
   },
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
