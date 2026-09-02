@@ -71,7 +71,7 @@ export default function Home() {
 
       <section className="download section" id="download"><div className="downloadInner reveal"><p className="eyebrow">Start simply</p><h2>Make space for<br /><em>what matters.</em></h2><p>Download SnowEd and make your next semester feel a little more manageable.</p><a className="button buttonLight" href={APK_LINK}>Download the APK <Icon name="download" size={18} /></a><small>Android 8.0 or later · Free forever</small></div></section>
 
-      <footer><a className="brand" href="#top"><span className="brandMark"><img src={ICON_IMAGE_PATH} alt="" /></span><span>SnowEd</span></a><span>Made for focused study.</span><a href="mailto:hello@snowed.app">Contact</a><span>© {new Date().getFullYear()} SnowEd</span></footer>
+      <footer><a className="brand" href="#top"><span className="brandMark"><img src={ICON_IMAGE_PATH} alt="" /></span><span>SnowEd</span></a><span>Made for focused study.</span><span>© {new Date().getFullYear()} SnowEd</span></footer>
     </main>
   );
 }
